@@ -44,7 +44,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.1.1</version>
 				<configuration>
-					<imageName>example</imageName>
+					<imageName>wmjug-docker-random-whale</imageName>
 					<baseImage>java:8</baseImage>
 					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar",
 						"--endpoints.health.sensitive=false",
