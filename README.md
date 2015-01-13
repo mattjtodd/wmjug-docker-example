@@ -1,5 +1,7 @@
 # wmjug-docker-example
-A very simple dockerized Random Whale generator spring boot app using spotify maven plugin to build images using the maven lifecycle.
+<p>A very simple dockerized Random Whale generator spring boot app using spotify maven plugin to build images using the maven lifecycle.</p>
+
+<p>The original presentation can be found here: <b><i>https://docs.google.com/presentation/d/1oL0X5nZ5h78E_NNB9ATI8l1hIiWSKmgkSp2DkACppzE/edit?usp=sharing</i></b></p>
 
 <b>Howto</b>
 
