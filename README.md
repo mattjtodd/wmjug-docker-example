@@ -11,6 +11,6 @@
   <li>Install Maven 3 & Java 8</li>
   <li>Run <b><i>mvn clean package docker:build</i></b> to create the spring boot jar and build a docker image</li>
   <li>Run <b><i>docker run -i -p 8080:8080 wmjug-docker-random-whale</i></b></li>
-  <li>Run <b><i>curl http://ip-of-your-docker-app:8080/randomeWhale</i></b> Should output a random whale JSON object</li>
+  <li>Run <b><i>curl http://ip-of-your-docker-app:8080/randomWhale</i></b> Should output a random whale JSON object</li>
 </ul>
 
