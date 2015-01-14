@@ -27,7 +27,7 @@ import static org.apache.commons.lang3.RandomUtils.nextInt;
  */
 @Controller
 @RequestMapping("/randomWhale")
-public class Controler
+public class WhaleControler
 {
 	@RequestMapping(method = RequestMethod.GET)
 	public @ResponseBody Whale random()

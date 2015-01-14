@@ -19,12 +19,19 @@ package com.mattjtodd.sample;
  */
 public final class Whale
 {
-	private final String name;
+	private String name;
 
-	private final int age;
+	private int age;
 
-	private final int weight;
+	private int weight;
 
+	/**
+	 * For Jackson
+	 */
+	Whale()
+	{
+	}
+	
 	public Whale(String name, int age, int weight)
 	{
 		this.name = name;
@@ -54,5 +61,29 @@ public final class Whale
 	public int getWeight()
 	{
 		return weight;
+	}
+
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	/**
+	 * @param age the age to set
+	 */
+	public void setAge(int age)
+	{
+		this.age = age;
+	}
+
+	/**
+	 * @param weight the weight to set
+	 */
+	public void setWeight(int weight)
+	{
+		this.weight = weight;
 	}
 }
