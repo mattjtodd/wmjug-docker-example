@@ -1,9 +1,12 @@
 # wmjug-docker-example
-<p>A very simple dockerized Random Whale generator spring boot app using rhuss maven plugin to build images using the maven lifecycle.</p>
-
-<p>https://github.com/rhuss/docker-maven-plugin<p>
+<p>A very simple dockerized Random Whale generator spring boot app using rhuss maven plugin to build docker images as part of the maven lifecycle.</p>
 
 <p>The original presentation can be found here: <b><i>https://docs.google.com/presentation/d/1oL0X5nZ5h78E_NNB9ATI8l1hIiWSKmgkSp2DkACppzE/edit?usp=sharing</i></b></p>
+<p>Maven plugin used: https://github.com/rhuss/docker-maven-plugin<p>
+
+<p>I may not have explained the whole whale thing at the start of the presentation, the mascot of the docker project is a whale.</p>
+
+<p>The reference to Haskell (for great good) comes from a great book about learning the functional langue of the same name called "Learn You a Haskell for Great Good!"  which can be found at http://learnyouahaskell.com.</p>
 
 <b>Use</b>
 
